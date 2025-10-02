@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding:0%;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    
+    
+}
+
+.main{
+    display: flex;
+    justify-content:center;
+    background:black;
+
+    min-height: 100vh;
+
+    background: linear-gradient(135deg, #0f2027, #2c5364);
+
+
+}
+
+.card{
+    width: 70%;
+    max-width: 400px;
+    background: linear-gradient(rgb(35, 98, 99),rgb(1, 28, 19));
+    border-radius: 20px;
+    margin: 100px auto 0 ;
+    padding: 40px 35px;
+    text-align: center;
+    color: aliceblue;
+
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+   
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+
+.search input{
+    border:0;
+    outline:0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: box-shadow 0.2s;
+}
+
+.search button{
+    border:0;
+    outline:0;
+    background: #ebfffc;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+
+     transition: background 0.2s;
+}
+
+.search input:focus {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.search button:hover {
+    background: #71de81;
+}
+
+.search button img{
+    height: 16px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 15px;
+
+}
+
+.weather h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+
+}
+
+.humidity, .wind{
+    font-size:18px;
+    margin-top: -6px;
+}
+ 
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+     
+}
+
+
