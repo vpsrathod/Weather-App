@@ -15,9 +15,6 @@ A simple Weather App built with **HTML, CSS, and JavaScript** that fetches real-
 
 ### 🔹 Homepage
 ![Weather App UI](images/weather-ui.png)
-
-*(Add a screenshot of your app here – save it as `weather-ui.png` in your `images/` folder and push it.)*
-
 ---
 
 ## 🛠️ Technologies Used
